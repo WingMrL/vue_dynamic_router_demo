@@ -1,17 +1,12 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <RouterLink to="/">Go to Home</RouterLink>
-    <div>break line</div>
-    <RouterLink to="/about">Go to About</RouterLink>
   </div>
 </template>
 
 <script>
-import { RouterLink } from 'vue-router';
 export default {
   name: 'HelloWorld',
-  components: [RouterLink],
   props: {
     msg: String
   }
